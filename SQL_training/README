@@ -1,1 +1,215 @@
 
+📘 SQL Learning Repository
+🐬 Project Overview
+
+The SQL Learning Repository is a complete collection of SQL practice files, datasets, and notes created while learning MySQL and PL/SQL.
+It includes hands-on exercises involving table creation, constraints, joins, functions, indexing, subqueries, and PL/SQL programming.
+
+This repository is useful for:
+
+Students learning SQL
+
+Data analysts practicing MySQL
+
+Interview preparation
+
+Beginners to advance who want step-by-step SQL scripts
+
+🎯 Objective
+
+This project was created to:
+
+Practice SQL fundamentals and advanced concepts through structured .sql files
+
+Understand database operations such as joins, constraints, and indexing
+
+Learn PL/SQL logic including loops, conditions, and procedures
+
+Use real datasets (company.xlsx, BigData.xlsx, joins.xlsx) for practical query building
+
+Maintain all SQL learning resources in a single organized repository
+
+📂 Project Structure
+SQL-Learning/
+├── 1_MySQL_CreateTable_BasicQueries.sql
+├── 2_SQL_Constraints_AlterTable.sql
+├── 3_AutoIncrement_Joins_Part1.sql
+├── 4_AutoIncrement_Joins_Part2.sql
+├── 5_Index_View_Subquery_Joins.sql
+├── 6_SQL_Functions_Numerical_String_Date_Coalesce_Case.sql
+├── 7_PLSQL_Variables_Loops_Procedures_Functions.sql
+│
+├── BigData.xlsx
+├── company.xlsx
+├── joins.xlsx
+│
+└── MYSQL WORKBENCH INSTALLATION.doc
+
+🛠️ Approach
+1. SQL Basics
+
+Creating databases & tables
+
+Inserting, updating, deleting data
+
+Basic SELECT queries
+
+2. Constraints & Alter Table
+
+Primary key, Foreign key
+
+Unique, Not Null, Default
+
+Modifying columns using ALTER TABLE
+
+3. Joins & Auto-Increment
+
+AUTO_INCREMENT usage
+
+INNER, LEFT, RIGHT, FULL joins
+
+Join-based real dataset queries (joins.xlsx)
+
+4. Advanced SQL Features
+
+Creating views
+
+Indexing for performance
+
+Subqueries (single-row & multi-row)
+
+Nested queries
+
+5. SQL Functions
+
+Numerical functions
+
+String functions
+
+Date & time functions
+
+COALESCE
+
+CASE expressions
+
+6. PL/SQL Concepts
+
+Variables and constants
+
+IF/ELSE blocks
+
+Loops (FOR, WHILE)
+
+Arrays & collections
+
+Procedures and functions
+
+🧪 Datasets Included
+
+Three Excel datasets are included for practicing queries:
+
+📊 1. BigData.xlsx
+
+Used for large table operations, filtering, grouping, and analytics.
+
+🧑‍💼 2. company.xlsx
+
+Employee- or department-based data for joins, conditions, and functions.
+
+🔗 3. joins.xlsx
+
+A lightweight dataset specifically for practicing various join operations.
+
+🧰 MySQL Workbench Installation
+
+A complete installation guide is provided:
+
+📄 MYSQL WORKBENCH INSTALLATION.doc
+This includes step-by-step instructions with screenshots to set up MySQL Server + Workbench.
+
+🚀 Getting Started
+1. Install MySQL Server + Workbench
+
+Open the Word file:
+
+MYSQL WORKBENCH INSTALLATION.doc
+
+
+Follow the complete setup instructions.
+
+2. Run SQL Files
+
+Execute the .sql scripts one by one in MySQL Workbench:
+
+Basics
+
+Constraints
+
+Joins
+
+Indexing
+
+Functions
+
+PL/SQL scripts
+
+3. Use Excel Data for Practice
+
+Import the .xlsx files into MySQL using:
+
+Table import wizard
+
+OR manual LOAD DATA steps
+
+🧩 Sample Query Topics Covered
+
+Creating tables & inserting rows
+
+Selecting specific & filtered data
+
+Joining multiple tables
+
+Aggregation functions
+
+Subqueries
+
+Creating consistent Data Models
+
+PL/SQL loops & conditions
+
+🧠 Troubleshooting
+❗ Query Error
+
+Check whether tables exist and names match.
+
+❗ Foreign Key Issues
+
+Ensure referenced tables are created before applying constraints.
+
+❗ Import Issues with Excel
+
+Convert .xlsx → .csv if MySQL version does not support direct Excel import.
+
+❗ Low Understanding of Joins
+
+Refer to 3_AutoIncrement_Joins_Part1.sql and 3_AutoIncrement_Joins_Part2.sql.
+
+📈 Learning Outcomes
+
+By practicing this repository, you will learn:
+
+How SQL databases work
+
+How to write clean, optimized queries
+
+How to perform analysis on real datasets
+
+Fundamentals of relational database design
+
+Basics of PL/SQL programming
+
+🤝 Connect
+
+GitHub: https://github.com/MR-RAUT
+
+LinkedIn: https://www.linkedin.com/in/mahesh-raut-5646a522a/
